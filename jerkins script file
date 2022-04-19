@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('SCM Checkout'){
             steps{
-                git 'https://github.com/gopal1409/mavenproject1.git'
+                git 'https://github.com/snehasequeira/devops-mavenproject.git'
             }
         }
         stage('MVN Build'){
